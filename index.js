@@ -42,7 +42,5 @@ const BankBranch = (function () {
 const branchA = new BankBranch("Branch A Info");
 const branchB = new BankBranch("Branch B Info");
 
-console.log(branchA === branchB);
+console.log(branchA === branchB); // comparison  
 
-console.log(branchA.getBranchInfo());
-console.log(branchB.getBranchInfo());
